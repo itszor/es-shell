@@ -4,6 +4,10 @@
 # http://www.gnu.org/software/autoconf
 
 /autom4te.cache
+/Makefile
+/config.h
+/config.log
+/config.status
 
 # yacc
 

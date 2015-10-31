@@ -7,9 +7,3 @@ include /usr/share/dpkg/default.mk
 
 %:
 	dh $@
-
-override_dh_auto_configure:
-	aclocal
-	autoconf
-	libtoolize -qi
-	dh_auto_configure

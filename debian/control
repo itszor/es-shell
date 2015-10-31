@@ -2,12 +2,13 @@ Source: es
 Section: shells
 Priority: optional
 Maintainer: Kacper Gutowski <klg@mmax.one.pl>
-Build-Depends: debhelper (>= 9), automake, libtool, bison, libreadline-dev
+Build-Depends: debhelper (>= 9), bison, libreadline6-dev, libsigsegv-dev, locales, gawk, libtinfo-dev
 Standards-Version: 3.9.5
 Homepage: https://wryun.github.io/es-shell/
 
 Package: es
 Architecture: any
+Section: shells
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Extensible shell based on rc
  Es is a command interpreter and programming language which
