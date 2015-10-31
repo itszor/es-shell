@@ -1,0 +1,17 @@
+Source: es
+Section: shells
+Priority: optional
+Maintainer: Kacper Gutowski <klg@mmax.one.pl>
+Build-Depends: debhelper (>= 9), automake, libtool, bison, libreadline-dev
+Standards-Version: 3.9.5
+Homepage: https://wryun.github.io/es-shell/
+
+Package: es
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Extensible shell based on rc
+ Es is a command interpreter and programming language which
+ combines the standard features of other Unix shells with the features
+ of a functional programming language such as Scheme. The syntax is
+ derived from rc(1).  Es is intended for use both as an interactive
+ shell and a programming language for scripts.
